@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Create Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Create Document</h1>
+    <form id="documentForm">
+        <label for="active">Active:</label>
+        <input type="checkbox" id="active" name="active" checked><br>
+
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title"><br>
+
+        <label for="description">Descripción:</label>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+
+        <label for="photo">URL Foto:</label>
+        <input type="text" id="photo" name="photo"><br>
+
+        <label for="price">Precio:</label>
+        <input type="text" id="price" name="price"><br>
+
+        <label for="tags">Tags:</label>
+        <input type="text" id="tags" name="tags"><br>
+
+        <input type="submit" value="Create">
+    </form>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

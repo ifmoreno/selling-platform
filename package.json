@@ -28,6 +28,6 @@
 	"type": "module",
 	"dependencies": {
 		"@lottiefiles/svelte-lottie-player": "^0.3.0",
-		"firebase": "^9.22.0"
+		"firebase": "^9.22.2"
 	}
 }
