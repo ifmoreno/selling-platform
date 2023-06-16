@@ -91,6 +91,10 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 
+<svelte:head>
+    <title>Productos de Cata & Iván</title>
+</svelte:head>
+
 <div class="container">
 	<div class="header">
 		<h1 class="title">Productos de Cata & Iván</h1>
