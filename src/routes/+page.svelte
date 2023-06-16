@@ -184,7 +184,7 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		margin-bottom: 20px;
+		margin: 50px 0 20px 0;
 	}
 
 	.tags button {
