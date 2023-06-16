@@ -1,38 +1,27 @@
-# create-svelte
+# Selling Platform
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Welcome to the Selling Platform repository! This project provides a web application for selling products with a catalog that supports filtering by tags.
 
-## Creating a project
+## Description
 
-If you're seeing this, you've probably already done this step. Congrats!
+This web application allows users to browse and purchase various products. The catalog is organized using tags, which help users filter and find specific types of products. By selecting a tag, users can view only the products associated with that tag, simplifying the browsing experience.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- Browse a collection of carefully selected products for sale.
+- Filter products by selecting tags to narrow down the catalog.
+- View detailed information about each product, including title, price, description, and tags.
+- Make purchases securely and easily.
 
-## Developing
+## Technologies Used
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Svelte: A JavaScript framework for building user interfaces.
+- Firebase: A cloud-based platform for building web and mobile applications.
+- HTML, CSS, and JavaScript: Core web technologies for building interactive applications.
 
-```bash
-npm run dev
+## License
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- **[MIT license](LICENSE)**
+- Copyright 2023 © Iván Moreno & Juan Alegría.
