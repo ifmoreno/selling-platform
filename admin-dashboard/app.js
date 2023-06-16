@@ -25,8 +25,11 @@ documentForm.addEventListener('submit', async function (event) {
     var description = document.getElementById('description').value;
     var photo = document.getElementById('photo').value;
     var price = document.getElementById('price').value;
-    var tags = document.getElementById('tags').value;
+    var tagsInput = document.getElementById('tags').value;
     var title = document.getElementById('title').value;
+
+    // Split the tags string into an array
+    var tags = tagsInput.trim().split(/\s*,\s*/);
 
     // Create a new document object
     var newDocument = {
